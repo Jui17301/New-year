@@ -25,6 +25,8 @@ header{
   padding: 10px;
   border: none;
   font-weight: 700;
+  border-radius: 10px;
+  font-size: 18px;
 }
 .failure-section{
   display: flex;
@@ -62,17 +64,13 @@ header{
 
 }
 .watch{
-  /* display: flex; */
-  /* justify-content: center; */
-  /* margin-top: 100px; */
-  /* margin: 0 auto; */
   background-image: url('../images/gradient1.png'),url('../images/watch.png');
-  margin: 50px auto;
-  width: 100%;
-  background-size: contain ;
-  /* width: 75%; */
-  /* margin-bottom: 100px; */
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover cover;
+  /* margin: 10px 0 10px 0 ; */
+  padding: 200px;
+  
 }
 .watch>h2, .watch>button{
   
@@ -80,6 +78,8 @@ header{
 .watch-text{
   color:white;
   text-align: left;
+  font-size: 30px;
+  padding: 30px;
 }
 footer{
   background: black;
